@@ -1,0 +1,194 @@
+.future-learning {
+
+    padding:0 0 15px 0;
+    border-bottom: 1px solid #dadada;
+    // margin-bottom:130px;
+
+    @media screen and (max-width: $sm-break){
+        border:0;
+    }
+
+    + .advertiser-content {
+        text-align:right;
+    }
+
+
+    header {
+        position:relative;
+        padding-bottom:10px;
+        border-bottom:1px solid #dadada;
+        margin-bottom:20px;
+
+        @media screen and (max-width: $sm-break){
+            margin-bottom:0;
+        }
+
+        > img {
+            @media screen and (max-width: $sm-break){
+                float:left;
+                width:222px;
+            }
+        }
+
+        > div {
+            position:absolute;
+            right:0;
+            top:0;
+            display:inline-block;
+            
+            @media screen and (max-width: $sm-break){
+                padding-top:0;
+                position:static;
+            }
+
+            @media screen and (max-width: $sm-mobile-break){
+                position:static;
+            }
+        }
+
+        @include clearfix;
+    }
+    
+    .container {
+        padding:0;
+    }
+
+    .furturelearning{
+
+
+        a.card{
+
+            @media screen and (max-width: $sm-break){
+                // margin-bottom: 6px;
+                border-bottom: 1px solid #dadada;
+            }
+
+            > article {
+                @extend %flexbox;
+                height: auto;
+                flex-wrap: nowrap;
+                -webkit-flex-wrap: nowrap;
+            }
+
+            > article > figure{
+                width: 99px;
+                flex: 0 0 99px;
+                overflow: hidden;
+                float: left;
+                margin-right: 14px;
+
+                @media screen and (max-width: $md-break){
+                    width: 65px;
+                    flex: 0 0 65px;
+                }
+
+
+                @media screen and (max-width: $sm-break){
+                    margin-top:15px;
+
+                    width: 70px;
+                    height:70px;
+                    flex: 0 0 70px;
+                }
+
+
+                > img{
+                    max-width: 100%;
+                }
+            }
+
+            > article > .content{
+                // border-bottom: 1px solid #dadada;
+                padding-bottom: 3px;
+                -ms-flex: 1 0;
+                // @include clearfix;
+
+                @media screen and (max-width: $md-break){
+                    // padding-bottom: 15px;
+                }
+
+                @media screen and (max-width: $sm-break){
+                    border: 0;
+                    padding: 15px 0;
+                }
+                > .category{
+                    font-size: em(11.2);
+                    font-weight: bold;
+                    color: #8a8b93;
+                    display: block;
+                    line-height: 1;
+                    margin-bottom: 3px;
+                    
+                    @media screen and (max-width: $sm-break) {
+                        font-family: $font-family-sans-serif;
+                        font-size: em(12);
+                        text-transform: upper;
+                    }
+                }
+
+                > h2{
+                    font-weight: normal;
+                    font-size: em(22);
+
+                    @media screen and (max-width: $md-break){
+                       font-size: em(16);
+                    }
+
+                    @media screen and (max-width: $mmd-break){
+                        height:37px;
+                        font-size: em(16);
+                        margin: 2px;
+                    }
+                }
+
+                > .author{
+                    display: none;
+                }
+
+                > time{
+                    padding: 0;
+                    border: 0;
+                    line-height: 1;
+                    float:none;
+
+                    @media screen and (max-width: $md-break){
+                        position: absolute;
+                        bottom: 5px;
+                        right: 15px;
+                    }
+
+                    @media screen and (max-width: $mmd-break){
+                        font-size: em(10);
+                        position:static;
+                    }
+                }
+
+                p {
+                    display:none;
+                }
+            }
+        }
+    }
+}
+
+
+.future-learning-sponsors{
+    padding-top: 12px;
+
+    > p {
+        font-size: em(12);
+        font-weight: bold;
+        color: #18385f;
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 7px;
+        vertical-align: bottom;
+    }
+
+    > .add-text{
+        font-size: 12px;
+        float: right;
+        color: #6c6c6c;
+        padding-top: 6px;
+    }
+}

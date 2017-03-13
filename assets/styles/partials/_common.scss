@@ -1,0 +1,295 @@
+body{
+    @media screen and (max-width: $sm-break){
+        overflow-x: hidden;
+    }
+}
+
+.loadMoreArticles {
+    text-decoration: none;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #e12e21;
+    width: 160px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    color: #e12e21;
+
+    @media screen and (max-width: $sm-break){
+        margin-top:40px;
+    }
+}
+
+
+button.bootbox-close-button {
+    float: right;
+    background: none;
+    border: none;
+}
+
+h4.modal-title {
+    margin-top: 10px;
+    font-family: $font-family-sans-serif;
+}
+
+.container-fluid{
+    max-width: 1600px;
+}
+
+.btn{
+    font-size: em(14);
+    font-weight: 600;
+    border-radius: 0;
+    padding: 10px 9px;
+    border-bottom: 2px solid $brand-secondary;  
+}
+
+.btn-primary{
+    &:hover{
+        border-bottom: 2px solid $brand-secondary;
+    }
+}
+
+.sidebar{
+    padding-left: 75px;
+    @media screen and (max-width: $md-break){
+        padding-left: 15px;
+    }
+}
+
+.card-group{
+    @media screen and (max-width: $sm-break){
+        margin-bottom: 35px;
+    }
+}
+
+// .site-main{
+//     @media screen and (max-width: $mobile-break){
+//         padding-top: 65px;
+//     }
+// }
+
+figcaption{
+    margin-top: 10px;
+
+    @media screen and (max-width: $sm-break){
+        float: left;
+        margin-bottom: 30px;
+    }
+    
+    > p {
+        font-size: em(12.5);
+        color: #6c6c6c;
+        font-style: italic;
+        font-family: $base-font-family;
+        float: left;
+
+        &.credit{
+            font-style: normal;
+            float: right;
+
+            @media screen and (max-width: $sm-break){
+                float: left;
+            }
+        }
+    }
+}
+
+.btn-post{
+    background-color: #3b5b97;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: em(19);
+    font-weight: bold;
+    border: 0;
+    padding: 2px 12px;
+    margin-right:2px;
+
+    &:hover,
+    &:focus{    
+        color: #FFF;
+    }
+}
+
+.btn-tweet{
+    background-color: #21b0ee;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: em(22);
+    font-weight: bold;
+    border: 0;
+    padding: 0 10px;
+    margin-right:2px;
+
+    &:hover,
+    &:focus{    
+        color: #FFF;
+    }
+}
+
+.btn-linkedin{
+    background-color: #21b0ee;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: em(19);
+    font-weight: bold;
+    border: 0;
+    padding: 2px 12px;
+    margin-right:2px;
+
+    &:hover,
+    &:focus{    
+        color: #FFF;
+    }
+}
+
+
+
+.btn-share{
+    background-color: #f57a61;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: em(19);
+    font-weight: bold;
+    border: 0;
+    padding: 2px 12px;
+
+    &:hover,
+    &:focus{    
+        color: #FFF;
+    }
+}
+
+.btn-email{
+    background-color: #717171;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: em(16);
+    font-weight: bold;
+    border: 0;
+    padding: 5px 17px 4px 10px;
+
+    &:hover,
+    &:focus{    
+        color: #FFF;
+    }
+}
+
+p.lead{
+    font-size: em(20);
+    font-weight: bold;
+    color: #4a4a4a;
+}
+span.leadsentence{
+    font-weight: bold;
+}
+
+
+.advertiser-content {
+    font-family: $font-family-sans-serif;
+    font-size: em(12);
+    color:#6c6c6c;
+}
+
+
+p.foundingpartners {
+    margin:0 0 25px 0;
+    text-align:center;
+    color: #8a8b93;
+}
+
+.sponsor-logos {
+    // margin-top:80px;
+    width:100%;
+    text-align: center;
+    
+    @media screen and (max-width: $sm-break){
+        margin-bottom: 35px;
+    }
+
+
+    
+    ul {
+        margin: 0 auto;
+
+
+        li {
+            display:inline-block;
+            margin-right:10px;
+
+            &.sponsor-holden {
+                width:200px;
+                height:50px;
+                background: url('../images/Holden_BASIC_TAG_LAND_POS_MONO.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &.sponsor-chorus {
+                width:200px;
+                height:50px;
+                background: url('../images/Chorus_Logo_SB_W.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &.sponsor-vic-uni-wellington {
+                width:200px;
+                height:50px;
+                background: url('../images/VIC-LOGO-Landscape-AW-BW-v3-[Converted].svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            &.sponsor-uni-auckland {
+                width:200px;
+                height:50px;
+                background: url('../images/UOA-H-White.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+
+            &.sponsor-stuff {
+                width:130px;
+                height:100px;
+                background: url('../images/stuff.svg?ver=1');
+                background-position: 0 20px;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+
+}
+
+
+.flex_col{display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;
+          display:-webkit-flex;-webkit-flex-direction:column;
+          display:-moz-flex;-moz-flex-direction:column;
+}
+.flex_row{display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;
+          display:-webkit-flex;-webkit-flex-direction:row;
+          display:-moz-flex;-moz-flex-direction:row;
+}
+
+.flex_between{
+    justify-content: space-between;
+}
+
+.flex-shrink0{-ms-flex-negative:0;-webkit-flex-shrink:0;flex-shrink:0;-moz-flex-shrink:0;}
+.flex0{-webkit-flex:0;-ms-flex:0;flex:0;-moz-flex:0;}
+.flex1{-webkit-flex:1 0 0;-ms-flex:1 0 0;flex:1 0 0;-moz-flex:1 0 0;}
+.flex2{-webkit-flex:2 0 0;-ms-flex:2 0 0;flex:2 0 0;-moz-flex:2 0 0;}
+.flex3{-webkit-flex:3 0 0;-ms-flex:3 0 0;flex:3 0 0;-moz-flex:3 0 0;}
+.flex4{-webkit-flex:4 0 0;-ms-flex:4 0 0;flex:4 0 0;-moz-flex:4 0 0;}
+.flex5{-webkit-flex:5 0 0;-ms-flex:5 0 0;flex:5 0 0;-moz-flex:5 0 0;}
+.flex6{-webkit-flex:6 0 0;-ms-flex:6 0 0;flex:6 0 0;-moz-flex:6 0 0;}
+.flex7{-webkit-flex:7 0 0;-ms-flex:7 0 0;flex:7 0 0;-moz-flex:7 0 0;}
+.flex8{-webkit-flex:8 0 0;-ms-flex:8 0 0;flex:8 0 0;-moz-flex:8 0 0;}
+.flex9{-webkit-flex:9 0 0;-ms-flex:9 0 0;flex:9 0 0;-moz-flex:9 0 0;}
+.flex10{-webkit-flex:10 0 0;-ms-flex:10 0 0;flex:10 0 0;-moz-flex:10 0 0;}
+.flex11{-webkit-flex:11 0 0;-ms-flex:11 0 0;flex:11 0 0;-moz-flex:11 0 0;}
+.flex12{-webkit-flex:12 0 0;-ms-flex:12 0 0;flex:12 0 0;-moz-flex:12 0 0;}
+.flex13{-webkit-flex:13 0 0;-ms-flex:13 0 0;flex:13 0 0;-moz-flex:13 0 0;}
+.flex15{-webkit-flex:15 0 0;-ms-flex:15 0 0;flex:15 0 0;-moz-flex:15 0 0;}
+
