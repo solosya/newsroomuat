@@ -11787,6 +11787,37 @@ body.channel.contact .form button {
   border: solid 1px #e12e21;
   color: white; }
 
+body.channel.supporters h1 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 3.13333em;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 45px; }
+
+body.channel.supporters h2 {
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 38px;
+  margin-bottom: 15px;
+  padding: 0; }
+  body.channel.supporters h2:first-child {
+    margin-top: 0; }
+
+body.channel.supporters a {
+  color: #15c; }
+
+body.channel.supporters figure > img {
+  margin: 20px 0;
+  width: 200px;
+  height: 200px; }
+
+body.channel.supporters p {
+  font-size: 1.2em; }
+  body.channel.supporters p span {
+    margin-top: 10px;
+    display: block; }
+
 .card {
   display: block; }
   .card:hover {
