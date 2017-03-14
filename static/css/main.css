@@ -12969,6 +12969,10 @@ body.channel.supporters p {
       left: 28%;
       width: 45px;
       height: 45px; }
+      @media screen and (max-width: 1200px) {
+        .future-learning .furturelearning a.card > article > figure.video:after {
+          top: 15%;
+          left: 18%; } }
     @media screen and (max-width: 1200px) {
       .future-learning .furturelearning a.card > article > figure {
         width: 65px;
