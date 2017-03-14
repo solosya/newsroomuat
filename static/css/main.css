@@ -8447,7 +8447,7 @@ p.foundingpartners {
     .site-footer .footer-btm .footer-menu > ul > li > a {
       color: #000;
       font-size: 0.93333em;
-      text-transform: capitalize; }
+      text-transform: none; }
     .site-footer .footer-btm .rooms-link {
       float: right; }
       @media screen and (max-width: 768px) {
