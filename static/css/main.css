@@ -11806,7 +11806,7 @@ body.channel.supporters h2 {
   body.channel.supporters h2:first-child {
     margin-top: 0; }
 
-body.channel.supporters a {
+body.channel.supporters .content p a {
   color: #15c; }
 
 body.channel.supporters figure > img {
