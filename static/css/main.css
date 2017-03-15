@@ -10458,7 +10458,8 @@ button.swiper-pagination-bullet {
         font-weight: normal;
         line-height: 1.02;
         margin-bottom: 20px;
-        margin-top: 21px; }
+        margin-top: 21px;
+        height: 60px; }
         @media screen and (max-width: 620px) {
           .room-sports > .articles article > .content > h2 {
             font-size: 1.06667em;
