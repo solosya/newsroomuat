@@ -194,6 +194,13 @@
 					}
 				}
 
+				span {
+					font-size: inherit!important;
+					font-weight: inherit!important;
+			    line-height: inherit!important;
+					font-family: inherit!important;
+				}
+
 				blockquote {
 					font-size: em(32);
 					font-weight: bold;

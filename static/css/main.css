@@ -10971,6 +10971,11 @@ button.swiper-pagination-bullet {
     @media screen and (max-width: 768px) {
       .article article.article-main .page-content .content p {
         font-size: 1.06667em; } }
+  .article article.article-main .page-content .content span {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+    font-family: inherit !important; }
   .article article.article-main .page-content .content blockquote {
     font-size: 2.13333em;
     font-weight: bold;
