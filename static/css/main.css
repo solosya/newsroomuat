@@ -7985,7 +7985,10 @@ p.foundingpartners {
 
 /* '' */
 .icon-instagram:before {
-  content: '\f32d'; }
+  content: '\f32d';
+  font-size: 16px;
+  position: relative;
+  top: -2px; }
 
 /* '' */
 .icon-mail:before {
