@@ -7965,7 +7965,10 @@ p.foundingpartners {
 
 /* '' */
 .icon-linkedin:before {
-  content: '\e806'; }
+  content: '\e806';
+  font-size: 17px;
+  position: relative;
+  top: -1px; }
 
 /* '' */
 .icon-right-angle:after {
@@ -7973,7 +7976,11 @@ p.foundingpartners {
 
 /* '' */
 .icon-twitter:before {
-  content: '\f099'; }
+  content: '\f099';
+  position: relative;
+  top: 1px;
+  font-size: 20px;
+  left: -1px; }
 
 /* '' */
 .icon-facebook:before {
@@ -7985,10 +7992,7 @@ p.foundingpartners {
 
 /* '' */
 .icon-instagram:before {
-  content: '\f32d';
-  font-size: 16px;
-  position: relative;
-  top: -2px; }
+  content: '\f32d'; }
 
 /* '' */
 .icon-mail:before {
