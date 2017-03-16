@@ -11621,7 +11621,8 @@ body.channel.about .founders .block {
         body.channel.about .founders .block .left .section-header-tablet > .title {
           font-size: 1.33333em;
           font-weight: normal;
-          color: #e12e21; }
+          color: #e12e21;
+          text-transform: uppercase; }
       body.channel.about .founders .block .left figure {
         display: inline-block;
         width: 123px;
