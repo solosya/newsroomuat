@@ -11799,6 +11799,11 @@ body.channel.contact .form button {
   border: solid 1px #e12e21;
   color: white; }
 
+body.channel.supporters #pp-donate-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: -15px; }
+
 body.channel.supporters h1 {
   font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
   font-size: 3.13333em;
