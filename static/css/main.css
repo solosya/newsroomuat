@@ -10963,15 +10963,9 @@ button.swiper-pagination-bullet {
     color: black;
     padding-right: 10px;
     clear: both; }
-    @media screen and (max-width: 768px) {
-      .article article.article-main .page-content .content p {
-        color: #8a8b93; } }
     .article article.article-main .page-content .content p.lead {
       font-weight: bold;
       color: black; }
-      @media screen and (max-width: 768px) {
-        .article article.article-main .page-content .content p.lead {
-          color: #8a8b93; } }
     .article article.article-main .page-content .content p:last-child {
       margin-bottom: 50px; }
     @media screen and (max-width: 768px) {
