@@ -8861,7 +8861,20 @@ ul.menu > li > ul.sub-menu.breaking-news-menu > li > ul.sub-sub-menu > li {
     width: 100%;
     margin-left: 0; }
   .bank-btn-mobile-wrpr {
-    display: block; } }
+    display: block; }
+  .menu-search {
+    display: flex; }
+    .menu-search input {
+      width: 100%;
+      border: none;
+      color: black; }
+    .menu-search form {
+      display: flex; }
+    .menu-search div {
+      display: flex;
+      flex: 1; }
+    .menu-search .btn {
+      border: none; } }
 
 @media (max-width: 620px) {
   .sb-custom-menu {
