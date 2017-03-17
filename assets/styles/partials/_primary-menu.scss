@@ -523,6 +523,8 @@ ul.menu > li > ul.sub-menu.breaking-news-menu > li > ul.sub-sub-menu > li{
             }
         form{
             display:flex;
+            padding-left:20px;
+            flex:1;
             }
         div{
             display:flex;
@@ -530,6 +532,10 @@ ul.menu > li > ul.sub-menu.breaking-news-menu > li > ul.sub-sub-menu > li{
         }
         .btn{
             border:none;
+        }
+        li{
+            display:flex;
+            flex: 1;
         }
     }
 

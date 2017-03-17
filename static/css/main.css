@@ -8869,12 +8869,17 @@ ul.menu > li > ul.sub-menu.breaking-news-menu > li > ul.sub-sub-menu > li {
       border: none;
       color: black; }
     .menu-search form {
-      display: flex; }
+      display: flex;
+      padding-left: 20px;
+      flex: 1; }
     .menu-search div {
       display: flex;
       flex: 1; }
     .menu-search .btn {
-      border: none; } }
+      border: none; }
+    .menu-search li {
+      display: flex;
+      flex: 1; } }
 
 @media (max-width: 620px) {
   .sb-custom-menu {
