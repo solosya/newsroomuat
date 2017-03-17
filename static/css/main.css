@@ -8140,6 +8140,9 @@ p.foundingpartners {
 .subscribe {
   text-align: center;
   margin-bottom: 80px; }
+  @media screen and (max-width: 620px) {
+    .subscribe {
+      padding-top: 60px; } }
   .subscribe.form {
     display: none; }
     @media screen and (max-width: 768px) {
@@ -10249,7 +10252,14 @@ button.swiper-pagination-bullet {
     display: none; }
   .room-board .subfeature-board article > .content > h2 {
     margin-top: 21px;
-    font-size: 1.2em; }
+    font-size: 1.2em;
+    height: 38px; }
+    @media screen and (max-width: 992px) {
+      .room-board .subfeature-board article > .content > h2 {
+        height: 58px; } }
+    @media screen and (max-width: 768px) {
+      .room-board .subfeature-board article > .content > h2 {
+        height: auto; } }
   .room-board .subfeature-board article > .content > time {
     float: none;
     border: none;
@@ -12266,7 +12276,7 @@ body.channel.supporters p {
         -webkit-flex-shrink: 0;
         flex-shrink: 0;
         -moz-flex-shrink: 0;
-        min-height: 0;
+        min-height: 35px;
         max-height: 35px; }
         .featured-slider .card .content .author:before {
           content: '';
@@ -12278,6 +12288,8 @@ body.channel.supporters p {
           @media screen and (max-width: 620px) {
             .featured-slider .card .content .author:before {
               border: 0; } }
+        .featured-slider .card .content .author > p {
+          padding-top: 8px; }
         @media screen and (max-width: 620px) {
           .featured-slider .card .content .author img {
             display: none; }
@@ -12607,10 +12619,19 @@ body.channel.supporters p {
         display: none; }
     .card-sm a.card.without__image .content {
       height: 333px; }
+      @media screen and (max-width: 768px) {
+        .card-sm a.card.without__image .content {
+          height: 116px;
+          padding-top: 20px; } }
       .card-sm a.card.without__image .content > h2 {
         margin-top: 60px;
         font-size: 30px;
         height: 190px; }
+        @media screen and (max-width: 768px) {
+          .card-sm a.card.without__image .content > h2 {
+            height: auto;
+            margin-top: 0;
+            font-size: 1.33333em; } }
     .card-sm a.card.social .content .category {
       margin-top: 0;
       margin-bottom: 8px; }
@@ -12816,6 +12837,9 @@ body.channel.supporters p {
         @media screen and (max-width: 1200px) {
           .card-lg a.card > article > .content > h2 {
             height: 310px; } }
+        @media screen and (max-width: 992px) {
+          .card-lg a.card > article > .content > h2 {
+            height: auto; } }
         @media screen and (max-width: 620px) {
           .card-lg a.card > article > .content > h2 {
             font-size: 1.33333em;
@@ -13067,5 +13091,11 @@ body.channel.supporters p {
     float: right;
     color: #6c6c6c;
     padding-top: 6px; }
+  .future-learning-sponsors > img {
+    height: 37px; }
+    @media screen and (max-width: 768px) {
+      .future-learning-sponsors > img {
+        margin-top: 10px;
+        height: 30px; } }
 
 /*# sourceMappingURL=main.css.map */
