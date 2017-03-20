@@ -10960,6 +10960,8 @@ button.swiper-pagination-bullet {
     line-height: inherit !important;
     font-family: inherit !important;
     letter-spacing: inherit !important; }
+  .article article.article-main .page-content .article_content a {
+    color: #8a8b93; }
   .article article.article-main .page-content .article_content figure {
     margin-top: 40px;
     margin-bottom: 40px; }
