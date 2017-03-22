@@ -10997,9 +10997,6 @@ button.swiper-pagination-bullet {
     color: black;
     padding-right: 10px;
     clear: both; }
-    .article article.article-main .page-content .article_content p.lead {
-      font-weight: bold;
-      color: black; }
     .article article.article-main .page-content .article_content p:last-child {
       margin-bottom: 50px; }
     @media screen and (max-width: 768px) {
