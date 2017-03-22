@@ -11425,6 +11425,9 @@ button.swiper-pagination-bullet {
   .roompage .featured a.card .content time {
     bottom: 40px;
     right: 30px; }
+    @media screen and (max-width: 1600px) {
+      .roompage .featured a.card .content time {
+        bottom: 20px; } }
     @media screen and (max-width: 1200px) {
       .roompage .featured a.card .content time {
         display: none; } }
@@ -11498,22 +11501,24 @@ button.swiper-pagination-bullet {
         display: inline-block;
         vertical-align: top;
         height: 55px; }
-  .roompage .room-top-stories a.card figure {
-    display: none; }
-  .roompage .room-top-stories a.card .content > h2 {
-    line-height: 1.36;
-    font-family: "tinos", Helvetica, Arial, sans-serif;
-    font-size: 22px;
-    font-weight: normal;
-    color: #000000; }
-  .roompage .room-top-stories a.card .content > p {
-    display: none; }
-  .roompage .room-top-stories a.card .content .category {
-    display: none; }
-  .roompage .room-top-stories a.card .content time {
-    display: none; }
-  .roompage .room-top-stories a.card .content .author {
-    display: none; }
+  .roompage .room-top-stories a.card {
+    width: 90%; }
+    .roompage .room-top-stories a.card figure {
+      display: none; }
+    .roompage .room-top-stories a.card .content > h2 {
+      line-height: 1.36;
+      font-family: "tinos", Helvetica, Arial, sans-serif;
+      font-size: 22px;
+      font-weight: normal;
+      color: #000000; }
+    .roompage .room-top-stories a.card .content > p {
+      display: none; }
+    .roompage .room-top-stories a.card .content .category {
+      display: none; }
+    .roompage .room-top-stories a.card .content time {
+      display: none; }
+    .roompage .room-top-stories a.card .content .author {
+      display: none; }
 
 .roompage .sidebar-inverted a.card {
   margin-top: 40px;
@@ -11521,7 +11526,7 @@ button.swiper-pagination-bullet {
   @media screen and (max-width: 1200px) {
     .roompage .sidebar-inverted a.card {
       margin-left: 0; } }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 620px) {
     .roompage .sidebar-inverted a.card {
       margin-left: -15px; } }
   @media screen and (max-width: 992px) {

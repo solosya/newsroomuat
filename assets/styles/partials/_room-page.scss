@@ -88,6 +88,11 @@
                     bottom:40px;
                     right:30px;
 
+                    @media screen and (max-width: 1600px){
+                        bottom:20px;
+                    }
+
+
                     @media screen and (max-width: $md-break){
                         display:none;
                     }
@@ -221,6 +226,8 @@
 
         a.card {
     
+            width:90%;
+
 
             figure {
                 display:none;
@@ -266,7 +273,7 @@
                 margin-left:0;
             }
 
-            @media screen and (max-width: $sm-break){
+            @media screen and (max-width: $mobile-break){
                 margin-left:-15px;
             }
 

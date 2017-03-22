@@ -102,7 +102,7 @@
                             <section class="col-sm-6 col-md-12 room-top-stories">
                                 <h2>Top stories</h2>
 
-                                {% set popularArticles = _Article.getPopularArticles({ limit: 4, excludeArticleId : article.id }) %}
+                                {% set popularArticles = _Article.getPopularArticles({ limit: 6, excludeArticleId : article.id }) %}
                                 {% if popularArticles|length > 0 %}
                                     {% set counter = 1 %}
 
