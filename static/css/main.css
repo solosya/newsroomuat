@@ -7765,7 +7765,7 @@ p.foundingpartners {
       .sponsor-logos ul li.sponsor-uni-auckland {
         width: 200px;
         height: 50px;
-        background: url("../images/UOA-H-White.svg");
+        background: url("../images/UOA_H_Black.svg");
         background-repeat: no-repeat;
         background-size: contain; }
       .sponsor-logos ul li.sponsor-stuff {
@@ -10183,7 +10183,7 @@ button.swiper-pagination-bullet {
       @media screen and (max-width: 620px) {
         .room-living > .contents > div > a > article > .content > .author {
           position: absolute;
-          top: 0;
+          top: -3px;
           right: 0; } }
       .room-living > .contents > div > a > article > .content > .author > p {
         padding-left: 0;
@@ -10193,7 +10193,9 @@ button.swiper-pagination-bullet {
         font-family: "tinos", Helvetica, Arial, sans-serif; }
         @media screen and (max-width: 620px) {
           .room-living > .contents > div > a > article > .content > .author > p {
-            font-size: 0.73333em; } }
+            font-size: 0.73333em;
+            margin: 0;
+            padding-top: 0; } }
       .room-living > .contents > div > a > article > .content > .author > img {
         display: none; }
 
