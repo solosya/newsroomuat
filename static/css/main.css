@@ -11498,27 +11498,26 @@ button.swiper-pagination-bullet {
         color: #e22f22;
         margin-top: 6px; }
       .roompage .room-top-stories ul > li > div {
+        width: 90%;
         display: inline-block;
         vertical-align: top;
         height: 55px; }
-  .roompage .room-top-stories a.card {
-    width: 90%; }
-    .roompage .room-top-stories a.card figure {
-      display: none; }
-    .roompage .room-top-stories a.card .content > h2 {
-      line-height: 1.36;
-      font-family: "tinos", Helvetica, Arial, sans-serif;
-      font-size: 22px;
-      font-weight: normal;
-      color: #000000; }
-    .roompage .room-top-stories a.card .content > p {
-      display: none; }
-    .roompage .room-top-stories a.card .content .category {
-      display: none; }
-    .roompage .room-top-stories a.card .content time {
-      display: none; }
-    .roompage .room-top-stories a.card .content .author {
-      display: none; }
+  .roompage .room-top-stories a.card figure {
+    display: none; }
+  .roompage .room-top-stories a.card .content > h2 {
+    line-height: 1.36;
+    font-family: "tinos", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+    color: #000000; }
+  .roompage .room-top-stories a.card .content > p {
+    display: none; }
+  .roompage .room-top-stories a.card .content .category {
+    display: none; }
+  .roompage .room-top-stories a.card .content time {
+    display: none; }
+  .roompage .room-top-stories a.card .content .author {
+    display: none; }
 
 .roompage .sidebar-inverted a.card {
   margin-top: 40px;
