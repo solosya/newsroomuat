@@ -1,5 +1,4 @@
     $.fn.Ajax_LoadBlogArticles = function(options){
-        console.log('loading more blog articles mamma');
         var defaults = {
             'limit': 20,
             'containerClass': 'ajaxArticles',
@@ -26,11 +25,9 @@
         var csrfToken = $('meta[name="csrf-token"]').attr("content");
         
         var dateFormat = 'SHORT';
-        // console.log(_appJsConfig.baseHttpPath + '/home/load-articles');
-        _appJsConfig.baseHttpPath = 'http://theme.aap.io';
         
         $.ajax({
-            type: 'get',
+            type: 'post',
             url: _appJsConfig.baseHttpPath + '/home/load-articles',
             dataType: 'json',
             data: {offset: offset, limit: opts.limit, existingNonPinnedCount: existingNonPinnedCount, _csrf: csrfToken, dateFormat: dateFormat},
