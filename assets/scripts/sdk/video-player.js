@@ -67,7 +67,6 @@
                     videoId = videoId.toString().split("::")[0];
                     
                     if (playerID == '' || typeof playerID == "undefined") {playerID = 'default';}
-                    console.log(playerID);
                     if (videoId !== "" && typeof videoId !== "undefined") {
                          url = "http://players.brightcove.net/"+accountID+"/"+playerID+"_default/index.html?videoId=" + videoId;
                     } else {

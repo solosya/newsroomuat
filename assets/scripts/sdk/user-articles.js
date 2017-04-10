@@ -99,7 +99,7 @@
                 }
             },
             error: function (jqXHR, textStatus, errorThrown) {
-                console.log(jqXHR.responseText);
+
                 if (opts.onError && typeof opts.onError === 'function') {
                     opts.onError(jqXHR, textStatus, errorThrown);
                 }
