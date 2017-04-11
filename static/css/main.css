@@ -7592,6 +7592,9 @@ button.like {
   body {
     overflow-x: hidden; } }
 
+a.fancybox-close {
+  z-index: 1 !important; }
+
 .loadMoreArticles {
   text-decoration: none;
   display: block;
