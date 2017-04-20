@@ -166,6 +166,7 @@
                         {% endif %}
 
 
+                        {% if articles|length >= limit %}
                         <section class="">
                             <div class="row">
                                 <div class="ajaxArticles clearfix"
@@ -184,6 +185,7 @@
                                 <p class="no-data text-center">No articles found.</p>  
                             </div>
                         </section>
+                        {% endif %}
 
 
 
